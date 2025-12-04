@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Sultan ONLY WIN</title>
+    <link rel="icon" href="https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">N-WIN <span class="badge">Netflix - Only WIN</span></div>
+        <ul class="nav-links">
+            <li><a href="#members">Anggota</a></li>
+            <li><a href="#finance">Riwayat Bayar</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-bg-slider">
+            <div class="slide active" style="background-image: url('https://image.tmdb.org/t/p/original/uDgy6hyPd82kOHh6I95FLtLnj6p.jpg');"></div>
+            <div class="slide" style="background-image: url('https://image.tmdb.org/t/p/original/d5NXSklXo0qyIYkgV94XAgMIckC.jpg');"></div> 
+            <div class="slide" style="background-image: url('https://image.tmdb.org/t/p/original/gKkl37BQuKTanygYQG1pyYgLVgf.jpg');"></div>
+            <div class="slide" style="background-image: url('https://image.tmdb.org/t/p/original/4HodYYKEIsGOdinkGi2Ucz6X9i0.jpg');"></div>
+            <div class="slide" style="background-image: url('https://image.tmdb.org/t/p/original/uDgy6hyPd82kOHh6I95FLtLnj6p.jpg');"></div>
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Tor Monitor KETUA, Only WIN Join NETFLIX</h1>
+            <p>Monitoring pembayaran Netflix Premium (4K + HDR) ala-ala.</p>
+            <div class="status-summary">
+                <span><i class="fas fa-users"></i> 5 Member Aktif</span>
+                <span><i class="fas fa-calendar-check"></i> Jatuh Tempo: Tiap Tanggal 5</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Section Member (Layout Baru 3 Atas 2 Bawah) -->
+    <section id="members" class="container">
+        <h2><i class="fas fa-user-astronaut"></i> Anggota</h2>
+        <div class="member-grid" id="member-list">
+            <!-- Member di-generate via JS -->
+        </div>
+    </section>
+
+    <!-- Section Data Keuangan -->
+    <section id="finance" class="container">
+        <h2><i class="fas fa-file-invoice-dollar"></i> Riwayat Pembayaran</h2>
+        
+        <!-- UPDATE DISINI: Tombol Spreadsheet -->
+        <div class="subtitle-wrapper">
+            <p class="subtitle">Realtime Database</p>
+            <a href="https://docs.google.com/spreadsheets/d/1kcD7GZYAERFs_vUrv4aPVXW8SxzMHregcWgOfopgHqE/edit?usp=sharing" target="_blank" class="sheet-btn">
+                <i class="fas fa-table"></i> Lihat Spreadsheet
+            </a>
+        </div>
+        
+        <div class="table-responsive">
+            <table class="finance-table">
+                <thead>
+                    <tr>
+                        <th>Bulan / Periode</th>
+                        <th>Jatuh Tempo</th>
+                        <th>Status Member</th>
+                        <th>Total Duit</th>
+                    </tr>
+                </thead>
+                <tbody id="payment-rows">
+                    <tr>
+                        <td colspan="4" style="text-align:center; padding: 20px;">
+                            <i class="fas fa-spinner fa-spin"></i> Memuat data dari server...
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p class="join-text">Semoga Konsisten 5 Tahun, 21.5rb doang Thanks To Ketua Kami</p>
+            <a href="https://chat.whatsapp.com/CAwHWHJN2bPEwgrSD9UZTv" target="_blank" class="wa-group-btn">
+                <i class="fab fa-whatsapp"></i> Group WhatsApp
+            </a>
+        </div>
+        
+        <div class="separator"></div>
+
+        <p class="copyright">Dibuat oleh Tarnished Karamoy &copy; 2025 - NETFLIX Only WIN</p>
+    </footer>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
